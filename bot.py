@@ -11,7 +11,7 @@ def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Halo! Bot Anda sudah aktif.')
 
 def main():
-    TOKEN = "YOUR_API_TOKEN"  # Masukkan API Token dari BotFather
+    TOKEN = "635188447:AAE-0gWseDjE5gHlLwgM8XKyz_w2rS8WZ0Y"  # Masukkan API Token dari BotFather
     updater = Updater(TOKEN)
 
     # Daftar handler
